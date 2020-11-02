@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1QX-uG-tAC"; */
+"1QX-uG-tAC.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1x8-di-186"; */
+"1x8-di-186.text" = "Label";
+
+/* Class = "UITextField"; text = "Kordinat Bilgileri "; ObjectID = "4MY-7D-TM2"; */
+"4MY-7D-TM2.text" = "Kordinat Bilgileri ";
+
+/* Class = "UITextField"; text = "Latitude information"; ObjectID = "5RB-6T-EWM"; */
+"5RB-6T-EWM.text" = "Latitude information";
+
+/* Class = "UILabel"; text = "Bilgi"; ObjectID = "AMc-9L-8Z8"; */
+"AMc-9L-8Z8.text" = "Bilgi";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DsC-VC-WZs"; */
+"DsC-VC-WZs.text" = "Label";
+
+/* Class = "UITextField"; text = "Longtitude information"; ObjectID = "GRA-zb-zOk"; */
+"GRA-zb-zOk.text" = "Longtitude information";
+
+/* Class = "UILabel"; text = "Nem"; ObjectID = "Mzy-EZ-IWh"; */
+"Mzy-EZ-IWh.text" = "Nem";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZYx-Av-Qwo"; */
+"ZYx-Av-Qwo.text" = "Label";
+
+/* Class = "UILabel"; text = "Yağmur"; ObjectID = "sVs-Yb-Ln9"; */
+"sVs-Yb-Ln9.text" = "Yağmur";
+
+/* Class = "UILabel"; text = "90º"; ObjectID = "skZ-GH-Har"; */
+"skZ-GH-Har.text" = "90º";

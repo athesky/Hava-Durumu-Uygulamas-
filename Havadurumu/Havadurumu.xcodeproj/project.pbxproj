@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D43DBAC251BFEEF0047CFEB /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43DBAB251BFEEF0047CFEB /* Coordinates.swift */; };
+		5D4DCC33251B945F00B09033 /* JSONdownloader .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DCC32251B945F00B09033 /* JSONdownloader .swift */; };
+		5D4DCC38251BAB9B00B09033 /* darkskyerror .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4DCC37251BAB9B00B09033 /* darkskyerror .swift */; };
+		5DF04D9B252274DC00C3A56D /* weather .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF04D9A252274DC00C3A56D /* weather .swift */; };
+		5DF15052251C0B2800D75A6A /* DarkSkyApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF15051251C0B2800D75A6A /* DarkSkyApiClient.swift */; };
+		5DF294F725161C0A004A5EEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF294F625161C0A004A5EEA /* AppDelegate.swift */; };
+		5DF294F925161C0A004A5EEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF294F825161C0A004A5EEA /* SceneDelegate.swift */; };
+		5DF294FB25161C0A004A5EEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF294FA25161C0A004A5EEA /* ViewController.swift */; };
+		5DF294FE25161C0A004A5EEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF294FC25161C0A004A5EEA /* Main.storyboard */; };
+		5DF2950025161C0B004A5EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF294FF25161C0B004A5EEA /* Assets.xcassets */; };
+		5DF2950325161C0B004A5EEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DF2950125161C0B004A5EEA /* LaunchScreen.storyboard */; };
+		5DF2950E25161C0B004A5EEA /* HavadurumuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2950D25161C0B004A5EEA /* HavadurumuTests.swift */; };
+		5DF2951925161C0B004A5EEA /* HavadurumuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2951825161C0B004A5EEA /* HavadurumuUITests.swift */; };
+		5DF2952A25164C5C004A5EEA /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2952925164C5C004A5EEA /* CurrentWeather.swift */; };
+		5DF2952F25164F1D004A5EEA /* CurrentWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF2952E25164F1D004A5EEA /* CurrentWeatherModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DF2950A25161C0B004A5EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF294EB25161C09004A5EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF294F225161C0A004A5EEA;
+			remoteInfo = Havadurumu;
+		};
+		5DF2951525161C0B004A5EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DF294EB25161C09004A5EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF294F225161C0A004A5EEA;
+			remoteInfo = Havadurumu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D43DBAB251BFEEF0047CFEB /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		5D4DCC32251B945F00B09033 /* JSONdownloader .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONdownloader .swift"; sourceTree = "<group>"; };
+		5D4DCC37251BAB9B00B09033 /* darkskyerror .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "darkskyerror .swift"; sourceTree = "<group>"; };
+		5D5CE486252E661D00BCBAC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5DF04D9A252274DC00C3A56D /* weather .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "weather .swift"; sourceTree = "<group>"; };
+		5DF15051251C0B2800D75A6A /* DarkSkyApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyApiClient.swift; sourceTree = "<group>"; };
+		5DF294F325161C0A004A5EEA /* Havadurumu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Havadurumu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF294F625161C0A004A5EEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DF294F825161C0A004A5EEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5DF294FA25161C0A004A5EEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DF294FD25161C0A004A5EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DF294FF25161C0B004A5EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DF2950225161C0B004A5EEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DF2950425161C0B004A5EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF2950925161C0B004A5EEA /* HavadurumuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavadurumuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF2950D25161C0B004A5EEA /* HavadurumuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavadurumuTests.swift; sourceTree = "<group>"; };
+		5DF2950F25161C0B004A5EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF2951425161C0B004A5EEA /* HavadurumuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HavadurumuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF2951825161C0B004A5EEA /* HavadurumuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HavadurumuUITests.swift; sourceTree = "<group>"; };
+		5DF2951A25161C0B004A5EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DF2952925164C5C004A5EEA /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		5DF2952E25164F1D004A5EEA /* CurrentWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DF294F025161C0A004A5EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2950625161C0B004A5EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2951125161C0B004A5EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DF294EA25161C09004A5EEA = {
+			isa = PBXGroup;
+			children = (
+				5DF294F525161C0A004A5EEA /* Havadurumu */,
+				5DF2950C25161C0B004A5EEA /* HavadurumuTests */,
+				5DF2951725161C0B004A5EEA /* HavadurumuUITests */,
+				5DF294F425161C0A004A5EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DF294F425161C0A004A5EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DF294F325161C0A004A5EEA /* Havadurumu.app */,
+				5DF2950925161C0B004A5EEA /* HavadurumuTests.xctest */,
+				5DF2951425161C0B004A5EEA /* HavadurumuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DF294F525161C0A004A5EEA /* Havadurumu */ = {
+			isa = PBXGroup;
+			children = (
+				5DF294F625161C0A004A5EEA /* AppDelegate.swift */,
+				5DF04D9A252274DC00C3A56D /* weather .swift */,
+				5DF294F825161C0A004A5EEA /* SceneDelegate.swift */,
+				5DF294FA25161C0A004A5EEA /* ViewController.swift */,
+				5DF294FC25161C0A004A5EEA /* Main.storyboard */,
+				5DF294FF25161C0B004A5EEA /* Assets.xcassets */,
+				5DF2950125161C0B004A5EEA /* LaunchScreen.storyboard */,
+				5DF2950425161C0B004A5EEA /* Info.plist */,
+				5DF2952925164C5C004A5EEA /* CurrentWeather.swift */,
+				5DF2952E25164F1D004A5EEA /* CurrentWeatherModel.swift */,
+				5D4DCC32251B945F00B09033 /* JSONdownloader .swift */,
+				5D4DCC37251BAB9B00B09033 /* darkskyerror .swift */,
+				5D43DBAB251BFEEF0047CFEB /* Coordinates.swift */,
+				5DF15051251C0B2800D75A6A /* DarkSkyApiClient.swift */,
+			);
+			path = Havadurumu;
+			sourceTree = "<group>";
+		};
+		5DF2950C25161C0B004A5EEA /* HavadurumuTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF2950D25161C0B004A5EEA /* HavadurumuTests.swift */,
+				5DF2950F25161C0B004A5EEA /* Info.plist */,
+			);
+			path = HavadurumuTests;
+			sourceTree = "<group>";
+		};
+		5DF2951725161C0B004A5EEA /* HavadurumuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5DF2951825161C0B004A5EEA /* HavadurumuUITests.swift */,
+				5DF2951A25161C0B004A5EEA /* Info.plist */,
+			);
+			path = HavadurumuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DF294F225161C0A004A5EEA /* Havadurumu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF2951D25161C0B004A5EEA /* Build configuration list for PBXNativeTarget "Havadurumu" */;
+			buildPhases = (
+				5DF294EF25161C0A004A5EEA /* Sources */,
+				5DF294F025161C0A004A5EEA /* Frameworks */,
+				5DF294F125161C0A004A5EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Havadurumu;
+			productName = Havadurumu;
+			productReference = 5DF294F325161C0A004A5EEA /* Havadurumu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DF2950825161C0B004A5EEA /* HavadurumuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF2952025161C0B004A5EEA /* Build configuration list for PBXNativeTarget "HavadurumuTests" */;
+			buildPhases = (
+				5DF2950525161C0B004A5EEA /* Sources */,
+				5DF2950625161C0B004A5EEA /* Frameworks */,
+				5DF2950725161C0B004A5EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF2950B25161C0B004A5EEA /* PBXTargetDependency */,
+			);
+			name = HavadurumuTests;
+			productName = HavadurumuTests;
+			productReference = 5DF2950925161C0B004A5EEA /* HavadurumuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5DF2951325161C0B004A5EEA /* HavadurumuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF2952325161C0B004A5EEA /* Build configuration list for PBXNativeTarget "HavadurumuUITests" */;
+			buildPhases = (
+				5DF2951025161C0B004A5EEA /* Sources */,
+				5DF2951125161C0B004A5EEA /* Frameworks */,
+				5DF2951225161C0B004A5EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DF2951625161C0B004A5EEA /* PBXTargetDependency */,
+			);
+			name = HavadurumuUITests;
+			productName = HavadurumuUITests;
+			productReference = 5DF2951425161C0B004A5EEA /* HavadurumuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DF294EB25161C09004A5EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5DF294F225161C0A004A5EEA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5DF2950825161C0B004A5EEA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5DF294F225161C0A004A5EEA;
+					};
+					5DF2951325161C0B004A5EEA = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5DF294F225161C0A004A5EEA;
+					};
+				};
+			};
+			buildConfigurationList = 5DF294EE25161C09004A5EEA /* Build configuration list for PBXProject "Havadurumu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DF294EA25161C09004A5EEA;
+			productRefGroup = 5DF294F425161C0A004A5EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF294F225161C0A004A5EEA /* Havadurumu */,
+				5DF2950825161C0B004A5EEA /* HavadurumuTests */,
+				5DF2951325161C0B004A5EEA /* HavadurumuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DF294F125161C0A004A5EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF2950325161C0B004A5EEA /* LaunchScreen.storyboard in Resources */,
+				5DF2950025161C0B004A5EEA /* Assets.xcassets in Resources */,
+				5DF294FE25161C0A004A5EEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2950725161C0B004A5EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2951225161C0B004A5EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DF294EF25161C0A004A5EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF294FB25161C0A004A5EEA /* ViewController.swift in Sources */,
+				5DF04D9B252274DC00C3A56D /* weather .swift in Sources */,
+				5D4DCC33251B945F00B09033 /* JSONdownloader .swift in Sources */,
+				5DF294F725161C0A004A5EEA /* AppDelegate.swift in Sources */,
+				5DF2952F25164F1D004A5EEA /* CurrentWeatherModel.swift in Sources */,
+				5DF2952A25164C5C004A5EEA /* CurrentWeather.swift in Sources */,
+				5DF15052251C0B2800D75A6A /* DarkSkyApiClient.swift in Sources */,
+				5DF294F925161C0A004A5EEA /* SceneDelegate.swift in Sources */,
+				5D4DCC38251BAB9B00B09033 /* darkskyerror .swift in Sources */,
+				5D43DBAC251BFEEF0047CFEB /* Coordinates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2950525161C0B004A5EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF2950E25161C0B004A5EEA /* HavadurumuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF2951025161C0B004A5EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF2951925161C0B004A5EEA /* HavadurumuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DF2950B25161C0B004A5EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF294F225161C0A004A5EEA /* Havadurumu */;
+			targetProxy = 5DF2950A25161C0B004A5EEA /* PBXContainerItemProxy */;
+		};
+		5DF2951625161C0B004A5EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DF294F225161C0A004A5EEA /* Havadurumu */;
+			targetProxy = 5DF2951525161C0B004A5EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DF294FC25161C0A004A5EEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF294FD25161C0A004A5EEA /* Base */,
+				5D5CE486252E661D00BCBAC0 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DF2950125161C0B004A5EEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DF2950225161C0B004A5EEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DF2951B25161C0B004A5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DF2951C25161C0B004A5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DF2951E25161C0B004A5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Havadurumu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.Havadurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DF2951F25161C0B004A5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Havadurumu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.Havadurumu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DF2952125161C0B004A5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavadurumuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.HavadurumuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Havadurumu.app/Havadurumu";
+			};
+			name = Debug;
+		};
+		5DF2952225161C0B004A5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavadurumuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.HavadurumuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Havadurumu.app/Havadurumu";
+			};
+			name = Release;
+		};
+		5DF2952425161C0B004A5EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavadurumuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.HavadurumuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Havadurumu;
+			};
+			name = Debug;
+		};
+		5DF2952525161C0B004A5EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HavadurumuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yakup.HavadurumuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Havadurumu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DF294EE25161C09004A5EEA /* Build configuration list for PBXProject "Havadurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF2951B25161C0B004A5EEA /* Debug */,
+				5DF2951C25161C0B004A5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF2951D25161C0B004A5EEA /* Build configuration list for PBXNativeTarget "Havadurumu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF2951E25161C0B004A5EEA /* Debug */,
+				5DF2951F25161C0B004A5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF2952025161C0B004A5EEA /* Build configuration list for PBXNativeTarget "HavadurumuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF2952125161C0B004A5EEA /* Debug */,
+				5DF2952225161C0B004A5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF2952325161C0B004A5EEA /* Build configuration list for PBXNativeTarget "HavadurumuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF2952425161C0B004A5EEA /* Debug */,
+				5DF2952525161C0B004A5EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DF294EB25161C09004A5EEA /* Project object */;
+}
